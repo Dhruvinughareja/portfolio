@@ -42,7 +42,7 @@ const Hero = () => {
           >
             <h2
               className='pb-2 text-4xl tracking-tighter lg:text-6xl'>
-              Vasu Aghera
+              Dhruvin Ughareja
             </h2>
             <span 
               className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-transparent text-[1.6rem] tracking-tighter'>
