@@ -79,7 +79,7 @@ const Contact = () => {
                     className="flex justify-center gap-4 md:gap-8"
                   >
                     <a 
-                      href="https://www.linkedin.com/in/vasu-aghera-375052251/" 
+                      href="https://www.linkedin.com/in/dhruvin-ughareja/" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="LinkedIn"
@@ -88,7 +88,7 @@ const Contact = () => {
                       <FaLinkedin className="text-lg md:text-4xl" />
                     </a>
                     <a 
-                      href="https://github.com/vasuaghera" 
+                      href="https://github.com/Dhruvinughareja" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Github"
@@ -121,7 +121,7 @@ const Contact = () => {
                     className="flex justify-center gap-4 md:gap-8"
                   >
                     <a 
-                      href="https://codeforces.com/profile/Vasu_aghera" 
+                      href="https://codeforces.com/profile/Dhruvin_" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Codeforces"
@@ -130,7 +130,7 @@ const Contact = () => {
                       <SiCodeforces className="text-lg md:text-4xl" />
                     </a>
                     <a 
-                      href="https://leetcode.com/u/_Vasu_aghera______/" 
+                      href="https://leetcode.com/u/dhruvin_4121/" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Leetcode"
@@ -139,7 +139,7 @@ const Contact = () => {
                       <SiLeetcode className="text-lg md:text-4xl" />
                     </a>
                     <a 
-                      href="https://www.codechef.com/users/vasu_aghera" 
+                      href="https://www.codechef.com/users/dhruv_in0204" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Codechef"
