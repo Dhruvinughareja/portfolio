@@ -8,12 +8,12 @@ import { SiCodeforces, SiLeetcode, SiCodechef } from "react-icons/si";
 
 const Contact = () => {
   return (
-    <div id="contact" className="border-t border-stone-900 py-8 md:py-20">
+    <div id="contact" className="bg-black py-8 md:py-20">
       <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="text-center text-2xl md:text-4xl font-semibold mb-6 md:mb-16"
+        className="text-center text-2xl md:text-4xl font-bold text-white mb-6 md:mb-16"
       >
         Get in Touch
       </motion.h2>
@@ -25,7 +25,7 @@ const Contact = () => {
             whileInView={{ opacity: 1 }}
             initial={{ opacity: 0 }}
             transition={{ duration: 1 }}
-            className="w-full h-[310px] sm:h-[330px] md:h-auto max-w-4xl mx-auto rounded-lg shadow-lg" 
+            className="w-full h-[310px] sm:h-[330px] md:h-auto max-w-4xl mx-auto rounded-lg border border-gray-800" 
             src={terminal} 
             alt="Terminal background" 
           />
@@ -51,7 +51,7 @@ const Contact = () => {
                     className="flex items-center justify-center gap-2 md:gap-3 text-sm md:text-2xl"
                   >
                     <MdEmail className="text-gray-400" />
-                    <a href={`mailto:${CONTACT.email}`} className="hover:text-white transition-colors break-all">
+                    <a href={`mailto:${CONTACT.email}`} className="hover:text-gray-400 transition-colors break-all">
                       {CONTACT.email}
                     </a>
                   </motion.div>
@@ -83,7 +83,7 @@ const Contact = () => {
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="LinkedIn"
-                      className="hover:scale-110 hover:text-white transition-all duration-300"
+                      className="hover:scale-110 hover:text-gray-400 transition-all duration-300"
                     >
                       <FaLinkedin className="text-lg md:text-4xl" />
                     </a>
@@ -92,7 +92,7 @@ const Contact = () => {
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Github"
-                      className="hover:scale-110 hover:text-white transition-all duration-300"
+                      className="hover:scale-110 hover:text-gray-400 transition-all duration-300"
                     >
                       <FaGithub className="text-lg md:text-4xl" />
                     </a>
@@ -125,7 +125,7 @@ const Contact = () => {
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Codeforces"
-                      className="hover:scale-110 hover:text-white transition-all duration-300"
+                      className="hover:scale-110 hover:text-gray-400 transition-all duration-300"
                     >
                       <SiCodeforces className="text-lg md:text-4xl" />
                     </a>
@@ -134,7 +134,7 @@ const Contact = () => {
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Leetcode"
-                      className="hover:scale-110 hover:text-white transition-all duration-300"
+                      className="hover:scale-110 hover:text-gray-400 transition-all duration-300"
                     >
                       <SiLeetcode className="text-lg md:text-4xl" />
                     </a>
@@ -143,7 +143,7 @@ const Contact = () => {
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Codechef"
-                      className="hover:scale-110 hover:text-white transition-all duration-300"
+                      className="hover:scale-110 hover:text-gray-400 transition-all duration-300"
                     >
                       <SiCodechef className="text-lg md:text-4xl" />
                     </a>
