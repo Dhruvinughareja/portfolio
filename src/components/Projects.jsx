@@ -15,30 +15,16 @@ const Projects = () => {
         </motion.h2>
         <div className='px-4 sm:px-6 lg:px-8'>
             {PROJECTS.map((project , index) => (
-                <div key={index} className='gap-5 mb-8 flex flex-wrap lg:justify-center pt-10'>
+                <div key={index} className='mb-8 flex flex-wrap justify-center'>
                     <motion.div 
                         whileInView={{opacity:1 , x:0}}
-                        initial={{opacity:0,x:-100}}
+                        initial={{opacity:0,x:0}}
                         transition={{duration:1}}
-                        className='w-full lg:w-1/4'
+                        className='w-full lg:w-3/4'
                     >
-                        <img 
-                            src={project.image}
-                            width={500}
-                            height={250}
-                            alt={project.title}
-                            className='mb-6 rounded-lg border border-gray-800' 
-                        />
-                    </motion.div>
-                    <motion.div 
-                        whileInView={{opacity:1 , x:0}}
-                        initial={{opacity:0,x:100}}
-                        transition={{duration:1}}
-                        className='w-full max-w-xl lg:w-3/4'
-                    >
-                        <h3 className='mb-2 font-semibold text-2xl text-white'>{project.title}</h3>
+                        <h3 className='mb-2 text-center font-semibold text-2xl text-white'>{project.title}</h3>
                         <p className='mb-4 text-gray-400'>{project.description}</p>
-                        <div className='flex flex-wrap gap-2'>
+                        <div className='flex flex-wrap justify-center gap-2'>
                             {project.technologies.map((tech,index)=> (
                                 <span 
                                     key={index}
