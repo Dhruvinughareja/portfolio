@@ -2,10 +2,10 @@
 // import project2 from "../assets/projects/project-2.webp";
 // import project3 from "../assets/projects/project-3.webp";
 // import project4 from "../assets/projects/project-4.webp";
-import project1 from "./projectImage/Project1.webp"
-import project2 from "./projectImage/Project2.webp"
-import project3 from "./projectImage/Project3.webp"
-import project4 from "../allAsstes/assets/projects/project-4.webp"
+import project1 from "./projectImage/Project1.svg"
+import project2 from "./projectImage/Project2.svg"
+import project3 from "./projectImage/Project3.svg"
+import project4 from "./projectImage/Project4.svg"
 
 
 export const HERO_CONTENT = `I'm a Full Stack Developer proficient in the MERN stack, passionate about building scalable and efficient web applications. I'm actively learning System Design and have a strong interest in Data Structures & Algorithms. I'm always excited to grow, explore new technologies, and tackle real-world challenges through code.`;

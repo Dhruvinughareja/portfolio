@@ -1,0 +1,6 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="300" fill="#00b894"/>
+    <text x="200" y="120" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="white">₿</text>
+    <text x="200" y="180" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white">Crypto Tracker</text>
+    <text x="200" y="220" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white" opacity="0.8">Project Preview</text>
+  </svg>
