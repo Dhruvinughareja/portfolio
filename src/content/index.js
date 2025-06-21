@@ -46,6 +46,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Imagify",
+    link: "https://imagify-eta-sooty.vercel.app/",
     description:
       "A powerful image processing and manipulation web application that allows users to upload, edit, and transform images with various filters and effects. Features include image cropping, resizing, applying filters, and batch processing capabilities.",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "Image Processing APIs"],
@@ -53,18 +54,21 @@ export const PROJECTS = [
   
   {
     title: "Tic-Tac-Toe",
+    link: "https://tic-tac-toe-iota-kohl.vercel.app/",
     description:
       "An interactive and responsive Tic-Tac-Toe game built with modern web technologies. Features include multiplayer support, game history tracking, customizable themes, and an intelligent AI opponent with different difficulty levels.",
     technologies: ["React", "JavaScript", "CSS3", "Local Storage", "Game Logic"],
   },
   {
     title: "Weather App",
+    link: "https://weather-app-kohl-three-23.vercel.app/",
     description:
       "A comprehensive weather application that provides real-time weather information, forecasts, and location-based weather alerts. Features include current weather conditions, 7-day forecasts, hourly predictions, and weather maps with interactive elements.",
     technologies: ["React", "Weather APIs", "Geolocation", "Responsive Design", "Chart.js"],
   },
   {
     title: "Crypto Price Tracker",
+    link: "https://weather-app-kohl-three-23.vercel.app/",
     description:
       "A real-time cryptocurrency price tracking application that monitors various digital currencies and provides detailed market analysis. Features include live price updates, historical price charts, portfolio tracking, and price alerts for selected cryptocurrencies.",
     technologies: ["React", "Crypto APIs", "Chart.js", "WebSocket", "Local Storage"],

@@ -22,7 +22,9 @@ const Projects = () => {
                         transition={{duration:1}}
                         className='w-full lg:w-3/4'
                     >
-                        <h3 className='mb-2 text-center font-semibold text-2xl text-white'>{project.title}</h3>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                            <h3 className='mb-2 text-center font-semibold text-2xl text-white hover:text-cyan-400 transition-colors'>{project.title}</h3>
+                        </a>
                         <p className='mb-4 text-gray-400'>{project.description}</p>
                         <div className='flex flex-wrap justify-center gap-2'>
                             {project.technologies.map((tech,index)=> (
