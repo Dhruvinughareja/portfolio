@@ -68,7 +68,7 @@ export const PROJECTS = [
   },
   {
     title: "Crypto Price Tracker",
-    link: "https://weather-app-kohl-three-23.vercel.app/",
+    link: "https://crypto-price-tracker-opal.vercel.app/",
     description:
       "A real-time cryptocurrency price tracking application that monitors various digital currencies and provides detailed market analysis. Features include live price updates, historical price charts, portfolio tracking, and price alerts for selected cryptocurrencies.",
     technologies: ["React", "Crypto APIs", "Chart.js", "WebSocket", "Local Storage"],
