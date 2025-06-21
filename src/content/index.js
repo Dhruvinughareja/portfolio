@@ -5,9 +5,10 @@
 import project1 from "./projectImage/Project1.webp"
 import project2 from "./projectImage/Project2.webp"
 import project3 from "./projectImage/Project3.webp"
+import project4 from "../allAsstes/assets/projects/project-4.webp"
 
 
-export const HERO_CONTENT = `I’m a Full Stack Developer proficient in the MERN stack, passionate about building scalable and efficient web applications. I’m actively learning System Design and have a strong interest in Data Structures & Algorithms. I’m always excited to grow, explore new technologies, and tackle real-world challenges through code.`;
+export const HERO_CONTENT = `I'm a Full Stack Developer proficient in the MERN stack, passionate about building scalable and efficient web applications. I'm actively learning System Design and have a strong interest in Data Structures & Algorithms. I'm always excited to grow, explore new technologies, and tackle real-world challenges through code.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -44,34 +45,34 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Imagify",
     image: project1,
     description:
-      "This project is an e-commerce website that allows users to browse products, add them to their cart, and complete purchases. It also features an admin panel for managing store items and updating order statuses, such as dispatch and delivery.",
-    technologies: ["React" , "Tailwind" , "Express.js" , "MongoDB"],
+      "A powerful image processing and manipulation web application that allows users to upload, edit, and transform images with various filters and effects. Features include image cropping, resizing, applying filters, and batch processing capabilities.",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Image Processing APIs"],
   },
   
   {
-    title: "Authentication-App",
+    title: "Tic-Tac-Toe",
     image: project2,
     description:
-      "This project is an authentication web application that ensures secure user access through features like login, registration, and email verification. It includes an email OTP functionality for an added layer of security during account creation and verification.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "An interactive and responsive Tic-Tac-Toe game built with modern web technologies. Features include multiplayer support, game history tracking, customizable themes, and an intelligent AI opponent with different difficulty levels.",
+    technologies: ["React", "JavaScript", "CSS3", "Local Storage", "Game Logic"],
   },
   {
-    title: "Hospital Managment System",
+    title: "Weather App",
     image: project3,
     description:
-      "This project is a hospital management system that handles patient appointments, medical records, and payments. It includes an admin panel for managing doctor profiles, removing doctors, and canceling appointments, along with a personal doctor profile panel where doctors can update their details, view total earnings, and track patient history.",
-    technologies: ["React" , "Tailwind" , "Express.js" , "MongoDB"],
+      "A comprehensive weather application that provides real-time weather information, forecasts, and location-based weather alerts. Features include current weather conditions, 7-day forecasts, hourly predictions, and weather maps with interactive elements.",
+    technologies: ["React", "Weather APIs", "Geolocation", "Responsive Design", "Chart.js"],
   },
-  // {
-  //   title: "Blogging Platform",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  // },
+  {
+    title: "Crypto Price Tracker",
+    image: project4,
+    description:
+      "A real-time cryptocurrency price tracking application that monitors various digital currencies and provides detailed market analysis. Features include live price updates, historical price charts, portfolio tracking, and price alerts for selected cryptocurrencies.",
+    technologies: ["React", "Crypto APIs", "Chart.js", "WebSocket", "Local Storage"],
+  },
 ];
 
 export const CONTACT = {
